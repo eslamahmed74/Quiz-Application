@@ -1,0 +1,4 @@
+node_modules/
+*.env
+demoData.js
+package-lock.json

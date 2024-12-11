@@ -1,0 +1,31 @@
+{
+  "name": "quiz-application",
+  "version": "1.0.0",
+  "description": "web based quiz application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eslamahmed74/Quiz-Application.git"
+  },
+  "author": "eslam",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eslamahmed74/Quiz-Application/issues"
+  },
+  "homepage": "https://github.com/eslamahmed74/Quiz-Application#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "cookie-parser": "^1.4.7",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "morgan": "^1.10.0",
+    "pg": "^8.13.1",
+    "sequelize": "^6.37.5"
+  }
+}
